@@ -1,0 +1,14 @@
+spring:
+  application:
+    name:goodsmanagement
+  datasource:
+    url: jdbc:mysql;//localhost;3306/demo/severTimezone=Asia/Shanghai&useUnicode=ture&characterEncoding=UTF-8
+    username: root
+    password: 123456
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    open-in-view: true
+    database-platform: org.hibernate.dialect.MySQL5InnoDBDialect
