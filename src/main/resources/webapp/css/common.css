@@ -1,0 +1,140 @@
+/*总体*/
+a{
+    color:#87CEFA;
+}
+a:hover{
+    text-decoration:none;
+    color: #1E90FF;
+}
+body{
+    font-size: 12px;
+    font-family: Arial;
+}
+
+/*首部导航栏*/
+
+.blueColor{
+    color:#1E90FF !important;
+}
+nav.top{
+    background-color: #F8F8FF;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom:1px solid #87CEFA;
+}
+nav.top span, nav.top a{
+    color: 		#6495ED;
+    margin: 0px 10px 0px 10px;
+}
+nav.top a:hover{
+    color: #1E90FF;
+    text-decoration: none;
+}
+
+/*主体*/
+div.searchDiv{
+    background-color: #1E90FF;
+    width: 400px;
+    margin: 50px auto;
+    padding: 1px;
+    height: 40px;
+    display: block;
+}
+div.searchDiv input{
+    width: 275px;
+    border: 1px solid transparent;
+    height: 36px;
+    margin: 1px;
+    outline:none;
+}
+div.searchDiv button{
+    width: 110px;
+    border: 1px solid transparent;
+    background-color: #1E90FF;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+div.searchBelow{
+    margin-top: 3px;
+    margin-left: -20px;
+}
+div.searchBelow span{
+    color: #999;
+}
+div.searchBelow a{
+    padding: 0px 20px 0px 20px;
+    font-size: 14px;
+}
+img.logo{
+    position: absolute;
+    margin: 10px;
+    left: 0px;
+    top: 30px;
+    z-index:-1;
+}
+
+
+/*页脚*/
+div.footer{
+    margin: 0px 0px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #87CEFA;
+}
+div.footer_img{
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-align: center;
+}
+div.footer_desc{
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #87CEFA;
+    padding-top: 30px;
+    margin: 0px 20px;
+}
+div.footer_desc div.descColumn{
+    width: 20%;
+    float: left;
+    padding-left: 15px;
+}
+div.footer_desc div.descColumn span.descColumnTitle{
+    color: #646464;
+    font-weight: bold;
+    font-size: 16px;
+}
+div.footer_desc a{
+    display: block;
+    padding-top: 3px;
+}
+div.copyright{
+    background-color: #F8F8FF;
+    border-top-style: solid;
+    border-top-width: 2px;
+    border-top-color: #1E90FF;
+}
+div.copyright span.slash{
+    color: white;
+}
+div.footer div.copyright div.footer_link a{
+    color: #6495ED;
+    padding: 0px 5px;
+}
+div.footer div.copyright div.footer_link{
+    text-align: center;
+    padding: 10px 0px;
+    margin-left: 10px;
+}
+div.license{
+    margin-left: 0px;
+    padding-bottom: 30px;
+}
+div.license div.copyright{
+    text-align: center;
+    margin: 10px 0px;
+    color: #686868;
+}
+img.box{
+    margin-left: 50px;
+}
